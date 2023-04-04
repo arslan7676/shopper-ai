@@ -1,0 +1,1039 @@
+@font-face {
+    font-family: 'Montserrat-Black';
+    src: url(../../assets/fonts/Montserrat-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url(../../assets/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url(../../assets/fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url(../../assets/fonts/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url(../../assets/fonts/Montserrat-Regular.ttf);
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-weight: 400;
+    color: #000122;
+    font-size: 16px;
+    font-family: 'Montserrat-Regular';
+}
+
+section{
+    padding: 40px 0px;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-heading{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000122;
+    font-family: 'Montserrat-Medium';
+}
+.main-text{
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000122;
+}
+.min-width{
+    min-width: 210px;
+}
+.btn {
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 6px 30px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat-Medium';
+}
+
+.btn:focus,
+.btn:active {
+    box-shadow: none !important;
+}
+
+.btn-primary {
+    background: #000122 !important;
+    color: #fff;
+    border: 1px solid #000122 !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    border: 1px solid #F46DED !important;
+    background: #F46DED !important;
+}
+
+
+.btn-danger {
+    background: linear-gradient(0deg, #F46DED, #F46DED);
+   background-color : #000122 !important;
+    color: #fff;
+    border: 1px solid #F46DED !important;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active {
+    border: 1px solid #000122 !important;
+    background: #000122 !important;
+}
+
+.btn-light {
+    background: #fff !important;
+    color: #6978FC;
+    border: 1px solid #fff !important;
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #fff;
+    border: 1px solid #6978FC !important;
+    background: #6978FC !important;
+}
+
+.btn-outline-primary {
+    border: 1px solid #6978FC;
+    color: #6978FC;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active {
+    border: 1px solid #6978FC !important;
+    background: #6978FC !important;
+    color: #fff !important;
+}
+
+.form-control {
+    border: 1px solid #000122;
+    border-radius: 5px;
+    height: 45px;
+    color: #000122;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 5px 15px;
+}
+
+.form-control::placeholder {
+    color: #000122;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    outline: none;
+    color: #000122;
+    border: 1px solid #F46DED !important;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+/* Header */
+
+header {
+    padding: 10px 0;
+    border-bottom: 1px solid #6978FC;
+}
+
+header img {
+    max-width: 200px;
+}
+
+header .nav-item {
+    padding: 0 5px;
+}
+
+header .nav-item:last-child {
+    padding-right: 0;
+}
+
+
+/* Hero */
+.hero .lead{
+    position: relative;
+    z-index: 1;
+}
+
+
+.hero .card-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 59px;
+    color: #1F075B;
+    padding-bottom: 20px;
+}
+
+.hero .card-text {
+    font-family: 'Montserrat-Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #000122;
+}
+
+.hero video {
+    width: 100%;
+}
+
+
+.hero .btn:hover {
+    background: #1F075B;
+}
+
+/* try-now section */
+.try-now {
+    margin-bottom: 100px;
+}
+.try-now .main-text{
+    font-size: 18px;
+}
+.try-now .btn{
+    background: #6978FC;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+}
+.try-now .btn:hover{
+    color: white;
+}
+
+.try-now .image {
+    background: url("../../assets/images/test-img.png");
+    height: 400px;
+    background-repeat: no-repeat;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.try-now .image .btn:hover {
+    background-color: #000122;
+
+
+}
+
+/* .3-card-section */
+.card-section .card {
+    border: none;
+    background: none;
+    z-index: 1;
+}
+
+.card-section .card-title {
+    margin-top: 10px;
+    font-family: 'Montserrat-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #6978FC;
+    
+}
+
+.card-section .main-text {
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+/* shopper section */
+.shopper {
+    overflow: hidden;
+}
+
+.shopper .main-shopper .main-heading::before {
+    position: absolute;
+    content: '';
+    width: 80px;
+    height: 2px;
+    background-color: #000122;
+    border-radius: 30px;
+    margin-top: -20px;
+
+}
+
+
+.shopper .main-shopper .card {
+    border: none;
+}
+
+.shopper #image {
+    position: absolute;
+    top: 180px;
+    z-index: 1;
+    right: -31px;
+}
+
+.shopper #dots {
+    position: absolute;
+    top: 48px;
+    right: -44px;
+}
+
+.shopper #circle {
+    position: absolute;
+    top: 108px;
+    left: 90px;
+}
+
+.shopper #male {
+    position: absolute;
+    left: 99px;
+    top: 83px;
+}
+
+.shopper .second-card .card {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}
+
+.shopper .second-card .card .card-title {
+    font-family: 'Montserrat-Medium';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    color: #353434;
+}
+
+.shopper .second-card .card .badge-success {
+    background: rgba(0, 207, 120, 0.2);
+    border-radius: 2px;
+    color: #000000;
+    padding: 7px 10px;
+}
+
+.shopper .second-card .card .badge-danger {
+    background: rgba(255, 70, 70, 0.2);
+    border-radius: 2px;
+    color: #000000;
+    padding: 7px 10px;
+}
+
+.shopper .second-card .card-1 {
+    position: absolute;
+    top: 93px;
+    right: 0px;
+    padding: 0px 0px 25px 0px;
+
+}
+
+.shopper .second-card .card-2 {
+    position: absolute;
+    top: 240px;
+    z-index: 1;
+}
+
+.shopper .second-card .card .card-text {
+    font-family: 'Montserrat-Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #353434;
+}
+
+
+/* shopper-decision section */
+
+.shopper-decision .main-heading {
+    position: relative;
+}
+
+.shopper-decision .main-heading::before {
+    position: absolute;
+    content: '';
+    width: 80px;
+    height: 2px;
+    background-color: #000122;
+    border-radius: 30px;
+    margin-top: -20px;
+
+}
+
+.shopper-decision .card {
+    border: none;
+}
+
+.shopper-decision #image {
+    position: absolute;
+    left: -4px;
+    top: 80px;
+}
+
+
+/* your-shopper section */
+
+.your-shopper .main-heading {
+    position: relative;
+}
+
+.your-shopper .main-heading::before {
+    position: absolute;
+    content: '';
+    width: 80px;
+    height: 2px;
+    background-color: #000122;
+    border-radius: 30px;
+    margin-top: -20px;
+
+}
+
+.your-shopper .secondary-card .card {
+    background: #FFFFFF;
+    box-shadow: 0px 3.54286px 26.5714px rgba(0, 0, 0, 0.15);
+    border-radius: 7px;
+}
+
+.your-shopper .secondary-card .card span {
+    font-size: 10px;
+}
+
+.your-shopper .secondary-card .card .card-title {
+    font-family: 'Montserrat-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21.2571px;
+    line-height: 120%;
+    color: #353434;
+}
+
+.your-shopper .card .btn:hover {
+    background: #1F075B;
+}
+
+.your-shopper .secondary-card .card .card-text {
+    font-family: 'Montserrat-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 120%;
+    color: #353434;
+}
+
+.your-shopper .secondary-card .male-img {
+    position: absolute;
+    right: 14px;
+    top: -74px;
+}
+
+.your-shopper .secondary-card .female-img {
+    position: absolute;
+    right: 9px;
+    top: -73px;
+}
+
+.your-shopper .secondary-card .graph-img img {
+    position: absolute;
+    bottom: 231px;
+    left: 73px;
+
+}
+
+.your-shopper .secondary-card .male-img-up {
+    position: absolute;
+    top: 217px;
+    left: -17px;
+}
+
+.your-shopper .secondary-card .female-img-up {
+    position: absolute;
+    top: 217px;
+    right: 18px;
+}
+
+.your-shopper .secondary-card .line-img img {
+    position: absolute;
+    top: -192px;
+    left: 48px;
+    z-index: 1;
+}
+
+.your-shopper .secondary-card .pie-img img {
+    position: absolute;
+    top: -196px;
+    left: -11px;
+}
+
+/* Testemonials */
+
+.testemonial .card {
+    border: 2px solid #6978FC;
+    border-radius: 16px;
+}
+
+.testemonial .card-title {
+    font-family: 'Montserrat-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    color: #6978FC;
+}
+
+.testemonial .card-text {
+    font-family: 'Montserrat-Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000122;
+}
+
+.testemonial .card .icons {
+    color: #FF9539;
+    font-size: 20px;
+}
+
+.testemonial .card .icons #star {
+    color: #C5C5C5;
+}
+
+.testemonial .card img {
+    width: auto;
+    margin: 0px auto;
+}
+
+/* form-section */
+.form-section {
+    background: #03B5E5;
+}
+
+.form-section form {
+    margin-bottom: 50px;
+
+}
+
+.form-section label {
+    font-family: 'Montserrat-Medium';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 51px;
+    color: #FFFFFF;
+}
+
+.form-section .form-control {
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.form-section .form-control::placeholder {
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.form-section .form-control:focus {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #1E1E1E !important;
+}
+
+
+/* Owl Carousel */
+
+.owl-dots {
+    text-align: center;
+}
+
+.owl-dots button.owl-dot.active span,
+.owl-dots button.owl-dot:hover span {
+    background-color: #FEAE00;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+}
+
+.owl-dots button.owl-dot {
+    border: 1px solid gray;
+    background: white;
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+    position: relative;
+}
+
+/* Upload image */
+
+.upload-custom .upload-label {
+    padding-bottom: 5px;
+}
+
+.upload-custom input[id="upload_file"] {
+    display: none;
+}
+
+.upload-custom label[for="upload_file"] {
+    background: #fff;
+    height: 90px;
+    background-repeat: no-repeat;
+    background-position: top 18px center;
+    background-size: 7%;
+    color: transparent;
+    margin: auto;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #000122;
+
+}
+
+.upload-custom label[for="upload_file"]:before {
+    content: "Upload the Video here and get insights";
+    display: block;
+    position: absolute;
+    top: 62%;
+    transform: translateY(-50%);
+    font-size: 14px;
+    color: #000122;
+    font-weight: 400;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 0 10px;
+    line-height: 16px;
+}
+
+.upload-custom label[for="upload_file"]:after {
+    display: block;
+    content: 'Browse';
+    margin-top: -6px;
+    background-image: url('../../assets/images/upload.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    text-align: center;
+
+}
+
+.upload-custom label[for="upload_file"] {
+    cursor: pointer;
+    transition: 400ms ease;
+}
+
+.upload-custom .file_names {
+    display: block;
+    position: absolute;
+    color: black;
+    left: 0;
+    bottom: -20px;
+    font-size: 11px;
+}
+
+.upload-custom .file_names {
+    text-align: center;
+}
+
+.upload-custom .upload img.upload {
+    position: absolute;
+    top: 50%;
+}
+
+
+/* Footer */
+
+footer {
+    background: #000122;
+    color: #F1F1F1;
+    padding: 60px 0 30px;
+}
+
+footer a {
+    color: #F1F1F1;
+}
+
+footer a:hover {
+    color: #F46DED;
+}
+
+footer .footer-logo {
+    margin-bottom: 25px;
+}
+
+footer .social-icon {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+footer .social-icon li a {
+    margin: 0 10px;
+}
+
+footer .copyright {
+    border-top: 1px solid #F1F1F1;
+    padding-top: 25px;
+}
+
+footer .copyright p {
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+/* Media query */
+
+@media (min-width: 1200px) {
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1280px;
+}
+
+.hero {
+    margin-bottom: 70px;
+    margin-top: 50px;
+}
+.hero .card-text {
+    max-width: 521px;
+}
+.hero-vedio{
+    position: absolute;
+    z-index: -2;
+}
+.try-now{
+    margin-top: 150px;
+}
+}
+
+@media screen and (max-width:1200px) {
+    .your-shopper .secondary-card .graph-img img {
+        bottom: 190px;
+    }
+
+    .your-shopper .secondary-card .male-img-up {
+        top: 184px;
+    }
+
+    .your-shopper .secondary-card .female-img-up {
+        top: 184px;
+    }
+
+    .your-shopper .secondary-card .line-img img {
+        top: -150px;
+    }
+
+    .your-shopper .secondary-card .pie-img img {
+        top: -156px;
+    }
+}
+
+@media screen and (max-width:990px) {
+    
+    .hero .lead{
+        order: 1;
+    }
+    .card-sec .card-1::after {
+        display: none;
+    }
+
+    .card-sec .card-2::after {
+        display: none;
+    }
+
+    .card-sec .card-1 {
+        position: static;
+    }
+
+    .card-sec .card-2 {
+        position: static;
+    }
+
+    .your-shopper .secondary-card .graph-img img {
+        bottom: 177px;
+    }
+
+    .your-shopper .secondary-card .male-img-up {
+        top: 262px;
+    }
+
+    .your-shopper .secondary-card .female-img-up {
+        top: 262px;
+    }
+
+    .your-shopper .secondary-card .line-img img {
+        top: -169px;
+        left: 60px;
+    }
+
+    .your-shopper .secondary-card .pie-img img {
+        top: -168px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .hero .card-text {
+        padding-right: 0px;
+    }
+
+    .hero .img-fluid {
+        left: -0px;
+        position: static;
+
+    }
+
+    .hero {
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
+
+    .form-section form {
+        margin-bottom: 50px;
+    }
+
+
+    .your-shopper .secondary-card .graph-img img {
+        bottom: 215px;
+    }
+
+    .your-shopper .secondary-card .male-img-up {
+        top: 210px;
+    }
+
+    .your-shopper .secondary-card .female-img-up {
+        top: 210px;
+    }
+
+    .your-shopper .secondary-card .line-img img {
+        top: -180px;
+        left: 49px;
+    }
+
+    .your-shopper .secondary-card .pie-img img {
+        top: -185px;
+    }
+
+    header {
+        border-bottom: 0;
+    }
+
+    header .navbar.navbar-expand-md {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 9999;
+    }
+
+    header .navbar-light .navbar-nav .nav-item {
+        padding: 6px 0;
+    }
+
+    header .navbar-light .navbar-toggler,
+    header .navbar-light .navbar-toggler:focus {
+        border: 0;
+        outline: none;
+    }
+
+    header .navbar-brand {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    header .navbar-nav {
+        text-align: center;
+        background: #fff;
+    }
+
+    header .navbar-nav .nav-item a {
+        min-width: 160px;
+    }
+
+}
+
+@media screen and (max-width:578px) {
+    
+    .main-heading {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+
+    .hero .card-title {
+        font-size: 28px;
+        line-height: 34px;
+        padding-top: 40px;
+    }
+
+    .try-now .image .btn {
+        left: 26%;
+    }
+
+    .shopper .image {
+        height: 350px;
+    }
+
+    .your-shopper .image {
+        background: url("/assets/images/section-2.png");
+        height: 400px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .try-now .image {
+        height: 200px;
+    }
+
+    .try-now .main-heading {
+        font-size: 24px;
+    }
+
+    .hero .btn {
+        width: 100%;
+    }
+
+    .shopper .card .btn {
+        width: 100%;
+    }
+
+    .shopper-decision .card .btn {
+        width: 100%;
+    }
+
+    .your-shopper .card .btn {
+        width: 100%;
+    }
+
+    .shopper .main-shopper .main-heading {
+        padding-right: 0px;
+    }
+
+    .shopper .main-heading {
+        padding-right: 0px;
+    }
+
+    .form-section .btn {
+        width: 100%;
+    }
+
+    .shopper .second-card .card-2 {
+        position: absolute;
+        top: 191px;
+    }
+
+    .shopper .second-card .card-1 {
+        position: absolute;
+        top: 40px;
+        left: 2px;
+        z-index: 1;
+    }
+}
+
+
+/* Free Trail  */
+
+.free-trail {
+    padding: 80px 0;
+}
+.free-trail .row{
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.free-trail h2 {
+    font-family: 'Montserrat-Medium';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 51px;
+    margin-bottom: 25px;
+}
+
+.free-trail p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 30px;
+
+}
+
+.free-trail .btn {
+    min-width: 160px;
+}
+
+@media screen and (max-width:576px) {
+    .min-width{
+        width: 100%;
+    }
+    .try-now .btn{
+        width: 160px;
+    }
+    .free-trail form .btn {
+        width: 100%;
+    }
+
+    .free-trail h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 40px 0 30px;
+    }
+
+    footer .social-icon {
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    footer .footer-logo {
+        margin-bottom: 30px;
+    }
+
+    footer .copyright {
+        margin-top: 10px;
+    }
+
+    .upload-custom label[for="upload_file"] {
+        height: 105px;
+    }
+
+}
